@@ -1,0 +1,161 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  margin: 0 auto;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #f7df1eaa);
+}
+
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+
+header{
+  width:100%;
+  height:100px;
+  display:flex;
+  justify-content: center;
+}
+.header{
+  width:80%;
+  height:100px;
+  display:flex;
+  justify-content: space-between;
+}
+.icon-div{
+  width:20%;
+  height: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+nav{
+  width: 60%;
+  height: 100%;
+  justify-content: center;
+
+  display:flex;
+  align-items: center;
+}
+ nav a{
+    padding-left: 20px;
+    color:#1a1a1a
+  }
+.button-div{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.button-div button{
+  width: 150px;
+height:50px;
+color: white;
+padding: 9px 30px 9px 30px;
+border-radius: 4px;
+gap: 4px;
+background: linear-gradient(109.09deg, #1874C5 4.04%, #F7931E 143.94%);
+
+}
+main{
+  width: 100%;
+  height: auto;
+
+}
+.main-bg{
+  width:100%;
+  height: 600px;
+  background-image: url(../images/children.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.vector{
+width: 440px;
+height: 171px;
+top: 1443.676025390625px;
+left: 804.8218383789062px;
+border: 2.1350061893463135px;
+angle: 178.15 deg;
+
+}
