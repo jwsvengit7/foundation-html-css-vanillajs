@@ -176,10 +176,10 @@ border: 2.1350061893463135px;
 
 }
 .row-2 .box:nth-child(2){
-  background-image: url(../images/Rectangle\ 9.png);
+  background-image: url(../images/Rectangle9.png);
 }
 .row-2 .box:nth-child(3){
-  background-image: url(../images/Rectangle\ 26.png);
+  background-image: url(../images/Rectangle26.png);
 }
 .h1border{
   padding-bottom: 10px;border-bottom: 3px solid goldenrod;width: 60%;
@@ -192,7 +192,7 @@ border: 2.1350061893463135px;
   flex-wrap: wrap;
 }
 .row-3 .box:nth-child(1){
-background-image: url(../images/Group\ 927.png);
+background-image: url(../images/Group.png);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
